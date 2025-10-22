@@ -1,6 +1,6 @@
-# 🧠 C Scanner in Python
+#  C Scanner in Python
 
-## 📄 Overview
+##  Overview
 
 This is a simple **lexical analyzer (scanner)** written in Python.
 It reads a C source code file, extracts **tokens**, and categorizes them into standard token types such as **keywords**, **identifiers**, **operators**, **numeric constants**, **character constants**, **special characters**, **comments**, **whitespace**, and **newlines**.
@@ -9,7 +9,7 @@ The scanner writes all extracted tokens to a file named `tokens.txt` and also pr
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. The C source code is read from a file (e.g., `code.c`).
 2. Regular expressions (`re` module) are used to detect patterns for each token type.
@@ -21,7 +21,7 @@ The scanner writes all extracted tokens to a file named `tokens.txt` and also pr
 
 ---
 
-## 🧩 Token Categories
+##  Token Categories
 
 | Token Type             | Description                                                    |
 | ---------------------- | -------------------------------------------------------------- |
@@ -37,7 +37,7 @@ The scanner writes all extracted tokens to a file named `tokens.txt` and also pr
 
 ---
 
-## 🧪 Example
+##  Example
 
 ### Input (`code.c`)
 
@@ -72,7 +72,7 @@ COMMENT_SINGLE    : '// This is a single-line comment'
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 1. Save the scanner code as `scanner.py`.
 2. Place your C file (e.g., `code.c`) in the same directory.
@@ -85,14 +85,14 @@ COMMENT_SINGLE    : '// This is a single-line comment'
 
 ---
 
-## 📚 Requirements
+##  Requirements
 
 * **Python 3.7+**
 * No external libraries required (uses only the built-in `re` module).
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 * This version does **not** handle complex string literals, hexadecimal or scientific numbers.
 * Line numbers are not recorded.
